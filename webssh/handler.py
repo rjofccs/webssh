@@ -254,7 +254,7 @@ class MixinHandler(object):
                     # redirecting
                     return False
 
-            if True or options.fbidhttp:
+            if False and options.fbidhttp:
                 if ip_address is None:
                     ip_address = to_ip_address(ip)
                 if not ip_address.is_private:
